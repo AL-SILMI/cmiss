@@ -1,0 +1,496 @@
+{
+  "departments": {
+    "CSE": {
+      "name": "Computer Science and Engineering",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "PH3256", "name": "Physics for Information Science", "credits": 3, "description": "Physics relevant to computing.", "instructor": "TBD" },
+          { "courseId": "BE3251", "name": "Basic Electrical, Electronics and Measurement Engineering", "credits": 3, "description": "Electrical and electronics fundamentals.", "instructor": "TBD" },
+          { "courseId": "CS3251", "name": "Programming in C", "credits": 3, "description": "Structured programming in C.", "instructor": "TBD" },
+          { "courseId": "GE3271", "name": "C Programming Lab", "credits": 2, "description": "C programming laboratory.", "instructor": "TBD" },
+          { "courseId": "BE3271", "name": "Basic Electrical, Electronics and Instrumentation Lab", "credits": 2, "description": "Electrical and electronics lab.", "instructor": "TBD" },
+          { "courseId": "HS3271", "name": "Communication Lab", "credits": 2, "description": "Language and communication lab.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3354", "name": "Discrete Mathematics", "credits": 4, "description": "Logic, sets, graphs, combinatorics.", "instructor": "TBD" },
+          { "courseId": "CS3351", "name": "Digital Principles and Computer Organization", "credits": 3, "description": "Digital systems and computer organization.", "instructor": "TBD" },
+          { "courseId": "CS3391", "name": "Data Structures", "credits": 4, "description": "Lists, trees, hashing, graphs and analysis.", "instructor": "TBD" },
+          { "courseId": "CS3352", "name": "Object Oriented Programming", "credits": 3, "description": "OOP design and programming (Java/C++).", "instructor": "TBD" },
+          { "courseId": "CS3381", "name": "Data Structures Lab", "credits": 2, "description": "Implementation of fundamental data structures.", "instructor": "TBD" },
+          { "courseId": "CS3382", "name": "Object Oriented Programming Lab", "credits": 2, "description": "OOP labs with Java/C++.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "MA3451", "name": "Probability and Statistics", "credits": 4, "description": "Random variables, distributions, estimation, testing.", "instructor": "TBD" },
+          { "courseId": "CS3451", "name": "Design and Analysis of Algorithms", "credits": 4, "description": "Algorithm design paradigms and analysis.", "instructor": "TBD" },
+          { "courseId": "CS3491", "name": "Computer Architecture", "credits": 3, "description": "Processor architecture, pipelining, memory hierarchy.", "instructor": "TBD" },
+          { "courseId": "CS3492", "name": "Database Management Systems", "credits": 3, "description": "Relational model, SQL, normalization.", "instructor": "TBD" },
+          { "courseId": "CS3481", "name": "Operating Systems", "credits": 3, "description": "Processes, scheduling, memory, file systems.", "instructor": "TBD" },
+          { "courseId": "CS3482", "name": "Database Management Systems Lab", "credits": 2, "description": "SQL, PL/SQL and database design lab.", "instructor": "TBD" },
+          { "courseId": "CS3483", "name": "Operating Systems Lab", "credits": 2, "description": "Process control, synchronization, memory lab.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "CS3591", "name": "Computer Networks", "credits": 3, "description": "Network architecture, protocols, and applications.", "instructor": "TBD" },
+          { "courseId": "CS3501", "name": "Theory of Computation", "credits": 3, "description": "Automata, formal languages, and computability.", "instructor": "TBD" },
+          { "courseId": "CS3502", "name": "Microprocessors and Microcontrollers", "credits": 3, "description": "Architecture and programming of microprocessors.", "instructor": "TBD" },
+          { "courseId": "CS3503", "name": "Software Engineering", "credits": 3, "description": "Software development lifecycle and methodologies.", "instructor": "TBD" },
+          { "courseId": "CS3551", "name": "Professional Elective I", "credits": 3, "description": "Specialized course in selected CS area.", "instructor": "TBD" },
+          { "courseId": "CS3581", "name": "Networks Lab", "credits": 2, "description": "Implementation of network protocols and services.", "instructor": "TBD" },
+          { "courseId": "CS3582", "name": "Microprocessors Lab", "credits": 2, "description": "Assembly programming and interfacing.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "CS3691", "name": "Artificial Intelligence", "credits": 3, "description": "Search, knowledge representation, and reasoning.", "instructor": "TBD" },
+          { "courseId": "CS3601", "name": "Internet Programming", "credits": 3, "description": "Web technologies and application development.", "instructor": "TBD" },
+          { "courseId": "CS3602", "name": "Compiler Design", "credits": 4, "description": "Lexical, syntax analysis, and code generation.", "instructor": "TBD" },
+          { "courseId": "CS3651", "name": "Professional Elective II", "credits": 3, "description": "Advanced specialized course in CS.", "instructor": "TBD" },
+          { "courseId": "CS3652", "name": "Professional Elective III", "credits": 3, "description": "Advanced specialized course in CS.", "instructor": "TBD" },
+          { "courseId": "CS3681", "name": "Internet Programming Lab", "credits": 2, "description": "Web application development practice.", "instructor": "TBD" },
+          { "courseId": "CS3682", "name": "Mini Project", "credits": 2, "description": "Small-scale software development project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "CS3791", "name": "Mobile Computing", "credits": 3, "description": "Mobile app development and platforms.", "instructor": "TBD" },
+          { "courseId": "CS3792", "name": "Cryptography and Network Security", "credits": 3, "description": "Security protocols and cryptographic algorithms.", "instructor": "TBD" },
+          { "courseId": "CS3751", "name": "Professional Elective IV", "credits": 3, "description": "Advanced specialized course in CS.", "instructor": "TBD" },
+          { "courseId": "CS3752", "name": "Professional Elective V", "credits": 3, "description": "Advanced specialized course in CS.", "instructor": "TBD" },
+          { "courseId": "GE3751", "name": "Open Elective I", "credits": 3, "description": "Interdisciplinary elective course.", "instructor": "TBD" },
+          { "courseId": "CS3781", "name": "Mobile Application Development Lab", "credits": 2, "description": "Android/iOS app development practice.", "instructor": "TBD" },
+          { "courseId": "CS3782", "name": "Security Lab", "credits": 2, "description": "Network security and cryptography implementation.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "CS3851", "name": "Professional Elective VI", "credits": 3, "description": "Advanced specialized course in CS.", "instructor": "TBD" },
+          { "courseId": "GE3851", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective course.", "instructor": "TBD" },
+          { "courseId": "CS3881", "name": "Project Work", "credits": 10, "description": "Capstone project in computer science.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "ESE": {
+      "name": "Electronic Systems Engineering",
+      "semesters": {
+        "1": [
+          { "courseId": "ES101", "name": "Basic Electrical Engineering", "credits": 4, "description": "Fundamentals of electrical engineering.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "ES201", "name": "Circuit Theory", "credits": 4, "description": "Linear circuits and analysis.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "ES301", "name": "Digital Electronics", "credits": 4, "description": "Logic design and combinational/sequential circuits.", "instructor": "TBD" },
+          { "courseId": "ES302", "name": "Signals and Systems", "credits": 3, "description": "Continuous and discrete-time signals.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "IT": {
+      "name": "Information Technology",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "PH3256", "name": "Physics for Information Science", "credits": 3, "description": "Physics relevant to computing.", "instructor": "TBD" },
+          { "courseId": "BE3251", "name": "Basic Electrical, Electronics and Measurement Engineering", "credits": 3, "description": "Electrical and electronics fundamentals.", "instructor": "TBD" },
+          { "courseId": "IT3201", "name": "Programming in C", "credits": 3, "description": "Structured programming in C.", "instructor": "TBD" },
+          { "courseId": "GE3271", "name": "C Programming Lab", "credits": 2, "description": "C programming laboratory.", "instructor": "TBD" },
+          { "courseId": "BE3271", "name": "Basic Electrical, Electronics and Instrumentation Lab", "credits": 2, "description": "Electrical and electronics lab.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3354", "name": "Discrete Mathematics", "credits": 4, "description": "Logic, sets, graphs, combinatorics.", "instructor": "TBD" },
+          { "courseId": "IT3301", "name": "Digital Systems", "credits": 3, "description": "Digital logic and computer organization.", "instructor": "TBD" },
+          { "courseId": "IT3302", "name": "Data Structures", "credits": 4, "description": "Lists, trees, hashing, graphs and analysis.", "instructor": "TBD" },
+          { "courseId": "IT3303", "name": "Object Oriented Programming", "credits": 3, "description": "OOP design and programming.", "instructor": "TBD" },
+          { "courseId": "IT3381", "name": "Data Structures Lab", "credits": 2, "description": "Implementation of fundamental data structures.", "instructor": "TBD" },
+          { "courseId": "IT3382", "name": "Object Oriented Programming Lab", "credits": 2, "description": "OOP labs with Java.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "IT3401", "name": "Web Technologies", "credits": 3, "description": "HTML, CSS, JavaScript, and web frameworks.", "instructor": "TBD" },
+          { "courseId": "IT3402", "name": "Database Management Systems", "credits": 3, "description": "Relational model, SQL, normalization.", "instructor": "TBD" },
+          { "courseId": "IT3403", "name": "Operating Systems", "credits": 3, "description": "Processes, scheduling, memory, file systems.", "instructor": "TBD" },
+          { "courseId": "IT3404", "name": "Design and Analysis of Algorithms", "credits": 4, "description": "Algorithm design paradigms and analysis.", "instructor": "TBD" },
+          { "courseId": "IT3481", "name": "Web Technologies Lab", "credits": 2, "description": "Web development practice.", "instructor": "TBD" },
+          { "courseId": "IT3482", "name": "Database Management Systems Lab", "credits": 2, "description": "SQL and database design lab.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "IT3501", "name": "Computer Networks", "credits": 3, "description": "Network architectures, protocols, and routing.", "instructor": "TBD" },
+          { "courseId": "IT3502", "name": "Software Engineering", "credits": 3, "description": "Software process models, requirements, design and testing.", "instructor": "TBD" },
+          { "courseId": "IT3503", "name": "Mobile Computing", "credits": 3, "description": "Mobile OS, applications, and communication.", "instructor": "TBD" },
+          { "courseId": "IT3504", "name": "Professional Elective I", "credits": 3, "description": "Elective from IT specialization basket.", "instructor": "TBD" },
+          { "courseId": "IT3581", "name": "Networks Lab", "credits": 2, "description": "Hands-on with network configuration and simulation.", "instructor": "TBD" },
+          { "courseId": "IT3582", "name": "Software Engineering Lab", "credits": 2, "description": "Requirements, design, testing and tools practice.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "IT3601", "name": "Cloud Computing", "credits": 3, "description": "Cloud service models, virtualization, orchestration.", "instructor": "TBD" },
+          { "courseId": "IT3602", "name": "Information Security", "credits": 3, "description": "Cryptography, network security, application security.", "instructor": "TBD" },
+          { "courseId": "IT3603", "name": "Data Warehousing and Mining", "credits": 3, "description": "OLAP, ETL, mining techniques and evaluation.", "instructor": "TBD" },
+          { "courseId": "IT3604", "name": "Professional Elective II", "credits": 3, "description": "Advanced elective from IT basket.", "instructor": "TBD" },
+          { "courseId": "IT3681", "name": "Cloud and Security Lab", "credits": 2, "description": "Cloud deployments and security implementations.", "instructor": "TBD" },
+          { "courseId": "IT3682", "name": "Mini Project", "credits": 1, "description": "Small-scale implementation project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "IT3701", "name": "Internet of Things", "credits": 3, "description": "IoT architectures, protocols, and applications.", "instructor": "TBD" },
+          { "courseId": "IT3702", "name": "Distributed Systems", "credits": 3, "description": "Distributed architectures, consistency, and coordination.", "instructor": "TBD" },
+          { "courseId": "IT3703", "name": "Professional Elective III", "credits": 3, "description": "Specialized elective from IT basket.", "instructor": "TBD" },
+          { "courseId": "IT3704", "name": "Open Elective I", "credits": 3, "description": "Elective from other departments.", "instructor": "TBD" },
+          { "courseId": "IT3781", "name": "IoT Lab", "credits": 2, "description": "IoT device interfacing and applications.", "instructor": "TBD" },
+          { "courseId": "IT3782", "name": "Project Phase I", "credits": 2, "description": "Initial phase of final year project.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "IT3801", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "IT3811", "name": "Internship/Industrial Training", "credits": 2, "description": "Internship with industry or research lab.", "instructor": "TBD" },
+          { "courseId": "IT3881", "name": "Project Work", "credits": 10, "description": "Capstone project with evaluation and viva.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "MECH": {
+      "name": "Mechanical Engineering",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "ME3251", "name": "Engineering Mechanics", "credits": 4, "description": "Statics and dynamics principles.", "instructor": "TBD" },
+          { "courseId": "ME3252", "name": "Manufacturing Technology I", "credits": 3, "description": "Basic manufacturing processes.", "instructor": "TBD" },
+          { "courseId": "GE3251", "name": "Engineering Graphics", "credits": 4, "description": "Technical drawing and CAD.", "instructor": "TBD" },
+          { "courseId": "ME3281", "name": "Manufacturing Technology Lab I", "credits": 2, "description": "Hands-on manufacturing practice.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3351", "name": "Transform and Partial Differential Equations", "credits": 4, "description": "Mathematical methods for engineering.", "instructor": "TBD" },
+          { "courseId": "ME3351", "name": "Engineering Thermodynamics", "credits": 4, "description": "Laws of thermodynamics and applications.", "instructor": "TBD" },
+          { "courseId": "ME3352", "name": "Manufacturing Technology II", "credits": 3, "description": "Advanced manufacturing processes.", "instructor": "TBD" },
+          { "courseId": "ME3353", "name": "Engineering Materials and Metallurgy", "credits": 3, "description": "Material properties and selection.", "instructor": "TBD" },
+          { "courseId": "ME3381", "name": "Computer Aided Machine Drawing", "credits": 2, "description": "CAD for mechanical components.", "instructor": "TBD" },
+          { "courseId": "ME3382", "name": "Manufacturing Technology Lab II", "credits": 2, "description": "Advanced manufacturing practice.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "ME3451", "name": "Kinematics and Dynamics of Machinery", "credits": 4, "description": "Mechanism analysis and synthesis.", "instructor": "TBD" },
+          { "courseId": "ME3452", "name": "Fluid Mechanics and Machinery", "credits": 4, "description": "Fluid statics, dynamics, and applications.", "instructor": "TBD" },
+          { "courseId": "ME3453", "name": "Heat and Mass Transfer", "credits": 4, "description": "Conduction, convection, radiation, and mass transfer.", "instructor": "TBD" },
+          { "courseId": "ME3454", "name": "Strength of Materials", "credits": 4, "description": "Stress, strain, and material behavior.", "instructor": "TBD" },
+          { "courseId": "ME3481", "name": "Thermal Engineering Lab", "credits": 2, "description": "Heat transfer and thermodynamics experiments.", "instructor": "TBD" },
+          { "courseId": "ME3482", "name": "Fluid Mechanics and Machinery Lab", "credits": 2, "description": "Fluid mechanics experiments.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "ME3501", "name": "Design of Machine Elements I", "credits": 4, "description": "Design of mechanical components and joints.", "instructor": "TBD" },
+          { "courseId": "ME3502", "name": "Metrology and Instrumentation", "credits": 3, "description": "Measurement techniques and instrumentation systems.", "instructor": "TBD" },
+          { "courseId": "ME3503", "name": "Thermal Engineering II", "credits": 3, "description": "Advanced thermodynamics and energy systems.", "instructor": "TBD" },
+          { "courseId": "ME3504", "name": "Professional Elective I", "credits": 3, "description": "Elective in mechanical specialization.", "instructor": "TBD" },
+          { "courseId": "ME3581", "name": "Metrology Lab", "credits": 2, "description": "Precision measurement and inspection.", "instructor": "TBD" },
+          { "courseId": "ME3582", "name": "Thermal Engineering Lab", "credits": 2, "description": "Thermal systems experiments and analysis.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "ME3601", "name": "Design of Machine Elements II", "credits": 4, "description": "Advanced design of machine elements.", "instructor": "TBD" },
+          { "courseId": "ME3602", "name": "Computer Aided Manufacturing", "credits": 3, "description": "CAM concepts and CNC programming.", "instructor": "TBD" },
+          { "courseId": "ME3603", "name": "Finite Element Analysis", "credits": 3, "description": "FEA concepts and applications.", "instructor": "TBD" },
+          { "courseId": "ME3604", "name": "Professional Elective II", "credits": 3, "description": "Advanced mechanical elective.", "instructor": "TBD" },
+          { "courseId": "ME3681", "name": "CAD/CAM Lab", "credits": 2, "description": "CAD modeling and CAM machining.", "instructor": "TBD" },
+          { "courseId": "ME3682", "name": "Mini Project", "credits": 1, "description": "Prototype or study project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "ME3701", "name": "Automobile Engineering", "credits": 3, "description": "Vehicle systems and technologies.", "instructor": "TBD" },
+          { "courseId": "ME3702", "name": "Mechatronics", "credits": 3, "description": "Integration of mechanical, electronics and control.", "instructor": "TBD" },
+          { "courseId": "ME3703", "name": "Open Elective I", "credits": 3, "description": "Elective from other departments.", "instructor": "TBD" },
+          { "courseId": "ME3704", "name": "Professional Elective III", "credits": 3, "description": "Specialized mechanical elective.", "instructor": "TBD" },
+          { "courseId": "ME3781", "name": "Mechatronics Lab", "credits": 2, "description": "Sensors, actuators and control integration.", "instructor": "TBD" },
+          { "courseId": "ME3782", "name": "Project Phase I", "credits": 2, "description": "Initial phase of final project.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "ME3801", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "ME3811", "name": "Internship/Industrial Training", "credits": 2, "description": "Industry internship or training.", "instructor": "TBD" },
+          { "courseId": "ME3881", "name": "Project Work", "credits": 10, "description": "Capstone design project and viva.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "AIDS": {
+      "name": "Artificial Intelligence and Data Science",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "PH3256", "name": "Physics for Information Science", "credits": 3, "description": "Physics relevant to computing.", "instructor": "TBD" },
+          { "courseId": "AD3201", "name": "Data Structures and Algorithms", "credits": 4, "description": "Fundamental data structures and algorithms.", "instructor": "TBD" },
+          { "courseId": "AD3202", "name": "Computational Thinking and Programming", "credits": 3, "description": "Problem-solving and programming fundamentals.", "instructor": "TBD" },
+          { "courseId": "AD3281", "name": "Data Structures and Algorithms Lab", "credits": 2, "description": "Implementation of data structures.", "instructor": "TBD" },
+          { "courseId": "AD3282", "name": "Computational Thinking and Programming Lab", "credits": 2, "description": "Programming practice.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3354", "name": "Discrete Mathematics", "credits": 4, "description": "Logic, sets, graphs, combinatorics.", "instructor": "TBD" },
+          { "courseId": "AD3301", "name": "Database Management Systems", "credits": 3, "description": "Relational model, SQL, normalization.", "instructor": "TBD" },
+          { "courseId": "AD3302", "name": "Machine Learning Techniques", "credits": 4, "description": "Supervised and unsupervised learning algorithms.", "instructor": "TBD" },
+          { "courseId": "AD3303", "name": "Object Oriented Programming", "credits": 3, "description": "OOP design and programming.", "instructor": "TBD" },
+          { "courseId": "AD3381", "name": "Database Management Systems Lab", "credits": 2, "description": "SQL and database design lab.", "instructor": "TBD" },
+          { "courseId": "AD3382", "name": "Machine Learning Lab", "credits": 2, "description": "Implementation of ML algorithms.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "AD3401", "name": "Artificial Intelligence", "credits": 3, "description": "Search, knowledge representation, and reasoning.", "instructor": "TBD" },
+          { "courseId": "AD3402", "name": "Deep Learning", "credits": 3, "description": "Neural networks and deep learning architectures.", "instructor": "TBD" },
+          { "courseId": "AD3403", "name": "Big Data Analytics", "credits": 3, "description": "Processing and analyzing large datasets.", "instructor": "TBD" },
+          { "courseId": "AD3404", "name": "Computer Vision", "credits": 3, "description": "Image processing and computer vision techniques.", "instructor": "TBD" },
+          { "courseId": "AD3481", "name": "AI Lab", "credits": 2, "description": "Implementation of AI algorithms.", "instructor": "TBD" },
+          { "courseId": "AD3482", "name": "Deep Learning Lab", "credits": 2, "description": "Neural network implementation and training.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "AD3501", "name": "Natural Language Processing", "credits": 3, "description": "Text processing, modeling and applications.", "instructor": "TBD" },
+          { "courseId": "AD3502", "name": "Data Mining and Warehousing", "credits": 3, "description": "Mining tasks, evaluation, and data warehousing.", "instructor": "TBD" },
+          { "courseId": "AD3503", "name": "Cloud Computing for Data Science", "credits": 3, "description": "Scalable data processing on cloud.", "instructor": "TBD" },
+          { "courseId": "AD3504", "name": "Professional Elective I", "credits": 3, "description": "Elective in AI/DS domain.", "instructor": "TBD" },
+          { "courseId": "AD3581", "name": "NLP Lab", "credits": 2, "description": "Hands-on text analytics and modeling.", "instructor": "TBD" },
+          { "courseId": "AD3582", "name": "Data Mining Lab", "credits": 2, "description": "Practical data mining implementations.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "AD3601", "name": "Reinforcement Learning", "credits": 3, "description": "MDPs, value methods and policy gradients.", "instructor": "TBD" },
+          { "courseId": "AD3602", "name": "Probabilistic Graphical Models", "credits": 3, "description": "Bayesian networks and inference.", "instructor": "TBD" },
+          { "courseId": "AD3603", "name": "Big Data Engineering", "credits": 3, "description": "Distributed data systems and pipelines.", "instructor": "TBD" },
+          { "courseId": "AD3604", "name": "Professional Elective II", "credits": 3, "description": "Advanced elective in AI/DS.", "instructor": "TBD" },
+          { "courseId": "AD3681", "name": "RL Lab", "credits": 2, "description": "Implementation of RL algorithms.", "instructor": "TBD" },
+          { "courseId": "AD3682", "name": "Mini Project", "credits": 1, "description": "Small-scale AI/DS project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "AD3701", "name": "Explainable AI and Ethics", "credits": 3, "description": "Interpretability, fairness and accountability.", "instructor": "TBD" },
+          { "courseId": "AD3702", "name": "Advanced Computer Vision", "credits": 3, "description": "Detection, segmentation and generative models.", "instructor": "TBD" },
+          { "courseId": "AD3703", "name": "Open Elective I", "credits": 3, "description": "Elective from other departments.", "instructor": "TBD" },
+          { "courseId": "AD3704", "name": "Professional Elective III", "credits": 3, "description": "Specialized AI/DS elective.", "instructor": "TBD" },
+          { "courseId": "AD3781", "name": "Advanced AI Lab", "credits": 2, "description": "Hands-on advanced AI techniques.", "instructor": "TBD" },
+          { "courseId": "AD3782", "name": "Project Phase I", "credits": 2, "description": "Initial phase of capstone project.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "AD3801", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "AD3811", "name": "Internship/Industrial Training", "credits": 2, "description": "Industry internship or training.", "instructor": "TBD" },
+          { "courseId": "AD3881", "name": "Project Work", "credits": 10, "description": "Capstone project with evaluation and viva.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "ECE": {
+      "name": "Electronics and Communication Engineering",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "PH3254", "name": "Physics for Electronics Engineering", "credits": 3, "description": "Physics relevant to electronics.", "instructor": "TBD" },
+          { "courseId": "EC3251", "name": "Circuit Analysis", "credits": 4, "description": "DC and AC circuit analysis.", "instructor": "TBD" },
+          { "courseId": "EC3252", "name": "Electronic Devices", "credits": 3, "description": "Semiconductor devices and applications.", "instructor": "TBD" },
+          { "courseId": "EC3281", "name": "Circuits and Devices Lab", "credits": 2, "description": "Circuit analysis and device characterization.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3351", "name": "Transform and Partial Differential Equations", "credits": 4, "description": "Mathematical methods for engineering.", "instructor": "TBD" },
+          { "courseId": "EC3351", "name": "Signals and Systems", "credits": 4, "description": "Time and frequency domain analysis.", "instructor": "TBD" },
+          { "courseId": "EC3352", "name": "Digital Electronics", "credits": 3, "description": "Combinational and sequential circuits.", "instructor": "TBD" },
+          { "courseId": "EC3353", "name": "Electronic Circuits", "credits": 3, "description": "Amplifiers, oscillators, and power circuits.", "instructor": "TBD" },
+          { "courseId": "EC3381", "name": "Digital Electronics Lab", "credits": 2, "description": "Digital circuit design and testing.", "instructor": "TBD" },
+          { "courseId": "EC3382", "name": "Electronic Circuits Lab", "credits": 2, "description": "Analog circuit design and testing.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "EC3451", "name": "Electromagnetic Fields", "credits": 4, "description": "Electrostatics, magnetostatics, and Maxwell's equations.", "instructor": "TBD" },
+          { "courseId": "EC3452", "name": "Communication Theory", "credits": 3, "description": "Analog and digital modulation techniques.", "instructor": "TBD" },
+          { "courseId": "EC3453", "name": "Digital Signal Processing", "credits": 3, "description": "Discrete-time signals and systems.", "instructor": "TBD" },
+          { "courseId": "EC3454", "name": "Microprocessors and Microcontrollers", "credits": 3, "description": "Architecture and programming.", "instructor": "TBD" },
+          { "courseId": "EC3481", "name": "Communication Systems Lab", "credits": 2, "description": "Modulation and demodulation experiments.", "instructor": "TBD" },
+          { "courseId": "EC3482", "name": "DSP Lab", "credits": 2, "description": "Digital signal processing implementation.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "EC3501", "name": "Antennas and Wave Propagation", "credits": 3, "description": "Antenna fundamentals and propagation models.", "instructor": "TBD" },
+          { "courseId": "EC3502", "name": "VLSI Design", "credits": 3, "description": "CMOS design and digital VLSI.", "instructor": "TBD" },
+          { "courseId": "EC3503", "name": "Control Systems", "credits": 3, "description": "Modeling, analysis and design of control systems.", "instructor": "TBD" },
+          { "courseId": "EC3504", "name": "Professional Elective I", "credits": 3, "description": "ECE specialization elective.", "instructor": "TBD" },
+          { "courseId": "EC3581", "name": "VLSI Lab", "credits": 2, "description": "Design and simulation of VLSI circuits.", "instructor": "TBD" },
+          { "courseId": "EC3582", "name": "Control Systems Lab", "credits": 2, "description": "Control experiments and simulations.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "EC3601", "name": "Embedded Systems", "credits": 3, "description": "Embedded architectures and interfacing.", "instructor": "TBD" },
+          { "courseId": "EC3602", "name": "Wireless Communication", "credits": 3, "description": "Wireless standards, channel models, and techniques.", "instructor": "TBD" },
+          { "courseId": "EC3603", "name": "Optical Communication", "credits": 3, "description": "Fiber optics and optical networks.", "instructor": "TBD" },
+          { "courseId": "EC3604", "name": "Professional Elective II", "credits": 3, "description": "Advanced ECE elective.", "instructor": "TBD" },
+          { "courseId": "EC3681", "name": "Embedded Systems Lab", "credits": 2, "description": "Microcontroller programming and interfacing.", "instructor": "TBD" },
+          { "courseId": "EC3682", "name": "Mini Project", "credits": 1, "description": "Small-scale embedded/ECE project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "EC3701", "name": "IoT Systems", "credits": 3, "description": "IoT architectures and applications.", "instructor": "TBD" },
+          { "courseId": "EC3702", "name": "RF and Microwave Engineering", "credits": 3, "description": "RF components and microwave systems.", "instructor": "TBD" },
+          { "courseId": "EC3703", "name": "Open Elective I", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "EC3704", "name": "Professional Elective III", "credits": 3, "description": "Specialized ECE elective.", "instructor": "TBD" },
+          { "courseId": "EC3781", "name": "IoT Lab", "credits": 2, "description": "IoT prototyping and testing.", "instructor": "TBD" },
+          { "courseId": "EC3782", "name": "Project Phase I", "credits": 2, "description": "Initial phase of final year project.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "EC3801", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "EC3811", "name": "Internship/Industrial Training", "credits": 2, "description": "Internship or industrial training.", "instructor": "TBD" },
+          { "courseId": "EC3881", "name": "Project Work", "credits": 10, "description": "Capstone project and viva.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "EEE": {
+      "name": "Electrical and Electronics Engineering",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "PH3254", "name": "Physics for Electronics Engineering", "credits": 3, "description": "Physics relevant to electronics.", "instructor": "TBD" },
+          { "courseId": "EE3251", "name": "Electric Circuit Analysis", "credits": 4, "description": "DC and AC circuit analysis.", "instructor": "TBD" },
+          { "courseId": "EE3252", "name": "Electromagnetic Theory", "credits": 3, "description": "Electrostatics, magnetostatics, and Maxwell's equations.", "instructor": "TBD" },
+          { "courseId": "EE3281", "name": "Electric Circuits Lab", "credits": 2, "description": "Circuit analysis and measurements.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3351", "name": "Transform and Partial Differential Equations", "credits": 4, "description": "Mathematical methods for engineering.", "instructor": "TBD" },
+          { "courseId": "EE3351", "name": "Electrical Machines I", "credits": 3, "description": "DC machines and transformers.", "instructor": "TBD" },
+          { "courseId": "EE3352", "name": "Digital Logic Circuits", "credits": 3, "description": "Combinational and sequential circuits.", "instructor": "TBD" },
+          { "courseId": "EE3353", "name": "Electronic Devices and Circuits", "credits": 3, "description": "Semiconductor devices and applications.", "instructor": "TBD" },
+          { "courseId": "EE3381", "name": "Electrical Machines Lab I", "credits": 2, "description": "DC machines and transformer testing.", "instructor": "TBD" },
+          { "courseId": "EE3382", "name": "Electronics Lab", "credits": 2, "description": "Electronic circuit design and testing.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "EE3451", "name": "Electrical Machines II", "credits": 3, "description": "AC machines and special machines.", "instructor": "TBD" },
+          { "courseId": "EE3452", "name": "Power System Analysis", "credits": 3, "description": "Power flow, fault analysis, and stability.", "instructor": "TBD" },
+          { "courseId": "EE3453", "name": "Linear Integrated Circuits", "credits": 3, "description": "Op-amps and applications.", "instructor": "TBD" },
+          { "courseId": "EE3454", "name": "Measurements and Instrumentation", "credits": 3, "description": "Sensors, transducers, and measurement systems.", "instructor": "TBD" },
+          { "courseId": "EE3481", "name": "Electrical Machines Lab II", "credits": 2, "description": "AC machines testing.", "instructor": "TBD" },
+          { "courseId": "EE3482", "name": "Linear and Digital Integrated Circuits Lab", "credits": 2, "description": "IC applications and testing.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "EE3501", "name": "Power Electronics", "credits": 3, "description": "Converters, inverters and applications.", "instructor": "TBD" },
+          { "courseId": "EE3502", "name": "Control Systems", "credits": 3, "description": "Modeling, analysis and control design.", "instructor": "TBD" },
+          { "courseId": "EE3503", "name": "Power System Operation and Control", "credits": 3, "description": "Economic dispatch, frequency and voltage control.", "instructor": "TBD" },
+          { "courseId": "EE3504", "name": "Professional Elective I", "credits": 3, "description": "Elective in EEE specialization.", "instructor": "TBD" },
+          { "courseId": "EE3581", "name": "Power Electronics Lab", "credits": 2, "description": "Converter/inverter implementation and testing.", "instructor": "TBD" },
+          { "courseId": "EE3582", "name": "Control Systems Lab", "credits": 2, "description": "Control experimentation and simulation.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "EE3601", "name": "High Voltage Engineering", "credits": 3, "description": "High-voltage phenomena and testing.", "instructor": "TBD" },
+          { "courseId": "EE3602", "name": "Renewable Energy Systems", "credits": 3, "description": "Solar, wind and integration issues.", "instructor": "TBD" },
+          { "courseId": "EE3603", "name": "Microcontrollers and Embedded Systems", "credits": 3, "description": "Architecture and interfacing for embedded applications.", "instructor": "TBD" },
+          { "courseId": "EE3604", "name": "Professional Elective II", "credits": 3, "description": "Advanced EEE elective.", "instructor": "TBD" },
+          { "courseId": "EE3681", "name": "Embedded Systems Lab", "credits": 2, "description": "Microcontroller programming and interfacing.", "instructor": "TBD" },
+          { "courseId": "EE3682", "name": "Mini Project", "credits": 1, "description": "Small-scale EEE project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "EE3701", "name": "Smart Grid Technologies", "credits": 3, "description": "Smart metering, communication and control.", "instructor": "TBD" },
+          { "courseId": "EE3702", "name": "Electrical Drives and Control", "credits": 3, "description": "Drive systems and control strategies.", "instructor": "TBD" },
+          { "courseId": "EE3703", "name": "Open Elective I", "credits": 3, "description": "Elective from other departments.", "instructor": "TBD" },
+          { "courseId": "EE3704", "name": "Professional Elective III", "credits": 3, "description": "Specialized EEE elective.", "instructor": "TBD" },
+          { "courseId": "EE3781", "name": "Drives Lab", "credits": 2, "description": "Drive system experiments and control.", "instructor": "TBD" },
+          { "courseId": "EE3782", "name": "Project Phase I", "credits": 2, "description": "Initial phase of final project.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "EE3801", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "EE3811", "name": "Internship/Industrial Training", "credits": 2, "description": "Industry internship or training.", "instructor": "TBD" },
+          { "courseId": "EE3881", "name": "Project Work", "credits": 10, "description": "Capstone project and viva.", "instructor": "TBD" }
+        ]
+      }
+    },
+    "CIVIL": {
+      "name": "Civil Engineering",
+      "semesters": {
+        "1": [
+          { "courseId": "HS3151", "name": "Professional English", "credits": 3, "description": "English communication for engineers.", "instructor": "TBD" },
+          { "courseId": "MA3151", "name": "Matrices and Calculus", "credits": 4, "description": "Linear algebra and calculus fundamentals.", "instructor": "TBD" },
+          { "courseId": "PH3151", "name": "Engineering Physics", "credits": 3, "description": "Physics concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "CY3151", "name": "Engineering Chemistry", "credits": 3, "description": "Chemistry concepts for engineering.", "instructor": "TBD" },
+          { "courseId": "GE3151", "name": "Problem Solving and Python Programming", "credits": 3, "description": "Intro to computing and Python.", "instructor": "TBD" },
+          { "courseId": "GE3171", "name": "Problem Solving and Python Programming Lab", "credits": 1, "description": "Python lab for problem solving.", "instructor": "TBD" },
+          { "courseId": "BS3171", "name": "Physics and Chemistry Lab", "credits": 2, "description": "Basic science laboratory.", "instructor": "TBD" }
+        ],
+        "2": [
+          { "courseId": "HS3251", "name": "Professional English II", "credits": 3, "description": "Advanced communication skills.", "instructor": "TBD" },
+          { "courseId": "MA3251", "name": "Statistics and Numerical Methods", "credits": 4, "description": "Probability, statistics, and numerical techniques.", "instructor": "TBD" },
+          { "courseId": "CE3251", "name": "Surveying", "credits": 3, "description": "Land surveying principles and methods.", "instructor": "TBD" },
+          { "courseId": "CE3252", "name": "Engineering Mechanics", "credits": 4, "description": "Statics and dynamics principles.", "instructor": "TBD" },
+          { "courseId": "GE3251", "name": "Engineering Graphics", "credits": 4, "description": "Technical drawing and CAD.", "instructor": "TBD" },
+          { "courseId": "CE3281", "name": "Surveying Lab", "credits": 2, "description": "Field surveying practice.", "instructor": "TBD" }
+        ],
+        "3": [
+          { "courseId": "MA3351", "name": "Transform and Partial Differential Equations", "credits": 4, "description": "Mathematical methods for engineering.", "instructor": "TBD" },
+          { "courseId": "CE3351", "name": "Strength of Materials", "credits": 3, "description": "Stress, strain, and material behavior.", "instructor": "TBD" },
+          { "courseId": "CE3352", "name": "Fluid Mechanics", "credits": 3, "description": "Fluid statics and dynamics.", "instructor": "TBD" },
+          { "courseId": "CE3353", "name": "Construction Materials", "credits": 3, "description": "Properties and applications of construction materials.", "instructor": "TBD" },
+          { "courseId": "CE3381", "name": "Strength of Materials Lab", "credits": 2, "description": "Material testing experiments.", "instructor": "TBD" },
+          { "courseId": "CE3382", "name": "Fluid Mechanics Lab", "credits": 2, "description": "Fluid mechanics experiments.", "instructor": "TBD" }
+        ],
+        "4": [
+          { "courseId": "CE3451", "name": "Structural Analysis", "credits": 4, "description": "Analysis of determinate and indeterminate structures.", "instructor": "TBD" },
+          { "courseId": "CE3452", "name": "Soil Mechanics", "credits": 3, "description": "Soil properties and behavior.", "instructor": "TBD" },
+          { "courseId": "CE3453", "name": "Hydraulics and Water Resources Engineering", "credits": 3, "description": "Hydraulic structures and water resources.", "instructor": "TBD" },
+          { "courseId": "CE3454", "name": "Concrete Technology", "credits": 3, "description": "Concrete properties and mix design.", "instructor": "TBD" },
+          { "courseId": "CE3481", "name": "Soil Mechanics Lab", "credits": 2, "description": "Soil testing experiments.", "instructor": "TBD" },
+          { "courseId": "CE3482", "name": "Concrete and Highway Engineering Lab", "credits": 2, "description": "Concrete and pavement material testing.", "instructor": "TBD" }
+        ],
+        "5": [
+          { "courseId": "CE3501", "name": "Design of Reinforced Concrete Elements", "credits": 4, "description": "Design of RC members per codes.", "instructor": "TBD" },
+          { "courseId": "CE3502", "name": "Water Supply and Wastewater Engineering", "credits": 3, "description": "Planning and design of water/wastewater systems.", "instructor": "TBD" },
+          { "courseId": "CE3503", "name": "Foundation Engineering", "credits": 3, "description": "Shallow/deep foundations and soil-structure interaction.", "instructor": "TBD" },
+          { "courseId": "CE3504", "name": "Professional Elective I", "credits": 3, "description": "Elective in Civil specialization.", "instructor": "TBD" },
+          { "courseId": "CE3581", "name": "Concrete Lab", "credits": 2, "description": "Concrete mix, tests and behavior.", "instructor": "TBD" },
+          { "courseId": "CE3582", "name": "Environmental Engineering Lab", "credits": 2, "description": "Water and wastewater analysis.", "instructor": "TBD" }
+        ],
+        "6": [
+          { "courseId": "CE3601", "name": "Design of Steel Structures", "credits": 4, "description": "Steel member and connection design.", "instructor": "TBD" },
+          { "courseId": "CE3602", "name": "Transportation Engineering", "credits": 3, "description": "Highway planning, design and traffic.", "instructor": "TBD" },
+          { "courseId": "CE3603", "name": "Estimation and Quantity Surveying", "credits": 3, "description": "Estimation and costing procedures.", "instructor": "TBD" },
+          { "courseId": "CE3604", "name": "Professional Elective II", "credits": 3, "description": "Advanced Civil elective.", "instructor": "TBD" },
+          { "courseId": "CE3681", "name": "Transportation Engineering Lab", "credits": 2, "description": "Pavement and traffic experiments.", "instructor": "TBD" },
+          { "courseId": "CE3682", "name": "Mini Project", "credits": 1, "description": "Small-scale Civil project.", "instructor": "TBD" }
+        ],
+        "7": [
+          { "courseId": "CE3701", "name": "Construction Planning and Management", "credits": 3, "description": "Project planning, scheduling and control.", "instructor": "TBD" },
+          { "courseId": "CE3702", "name": "Advanced Structural Analysis", "credits": 3, "description": "Matrix methods and advanced analysis.", "instructor": "TBD" },
+          { "courseId": "CE3703", "name": "Open Elective I", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "CE3704", "name": "Professional Elective III", "credits": 3, "description": "Specialized Civil elective.", "instructor": "TBD" },
+          { "courseId": "CE3781", "name": "CAD Lab for Civil", "credits": 2, "description": "CAD tools for Civil engineering.", "instructor": "TBD" },
+          { "courseId": "CE3782", "name": "Project Phase I", "credits": 2, "description": "Initial phase of final project.", "instructor": "TBD" }
+        ],
+        "8": [
+          { "courseId": "CE3801", "name": "Open Elective II", "credits": 3, "description": "Interdisciplinary elective.", "instructor": "TBD" },
+          { "courseId": "CE3811", "name": "Internship/Industrial Training", "credits": 2, "description": "Industry internship or training.", "instructor": "TBD" },
+          { "courseId": "CE3881", "name": "Project Work", "credits": 10, "description": "Capstone project and viva.", "instructor": "TBD" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Simple campus building icon -->
+  <g fill="none" stroke="#000" stroke-width="1" stroke-linejoin="round">
+    <!-- ground -->
+    <rect x="3" y="26" width="26" height="3" fill="#c7cbd1" />
+
+    <!-- left tree -->
+    <rect x="6" y="22" width="2" height="4" rx="1" fill="#7b4c2e" />
+    <circle cx="7" cy="20" r="3" fill="#7bd96b" />
+
+    <!-- right tree -->
+    <rect x="24" y="22" width="2" height="4" rx="1" fill="#7b4c2e" />
+    <circle cx="25" cy="20" r="3" fill="#7bd96b" />
+
+    <!-- side wings -->
+    <rect x="3" y="14" width="10" height="10" rx="1" fill="#ffd7b3" />
+    <rect x="19" y="14" width="10" height="10" rx="1" fill="#ffd7b3" />
+    <!-- wing windows -->
+    <circle cx="6" cy="18" r="1" fill="#000" />
+    <circle cx="9" cy="18" r="1" fill="#000" />
+    <circle cx="12" cy="18" r="1" fill="#000" />
+    <circle cx="22" cy="18" r="1" fill="#000" />
+    <circle cx="25" cy="18" r="1" fill="#000" />
+    <circle cx="28" cy="18" r="1" fill="#000" />
+
+    <!-- central tower -->
+    <path d="M12 9 L16 6 L20 9 V24 H12 Z" fill="#f0a29a" />
+    <!-- arched window -->
+    <path d="M16 11 a3 3 0 0 1 3 3 v2 h-6 v-2 a3 3 0 0 1 3-3z" fill="#ffffff" />
+    <!-- tower stripes -->
+    <rect x="13" y="16" width="6" height="1.4" rx="0.7" fill="#2b2b2b" />
+    <rect x="13" y="19" width="6" height="1.4" rx="0.7" fill="#2b2b2b" />
+
+    <!-- front block with door -->
+    <rect x="11" y="22" width="10" height="8" rx="1" fill="#fff4d9" />
+    <rect x="15" y="25" width="6" height="5" rx="1" fill="#bfeafe" />
+    <rect x="15" y="24" width="6" height="1.2" rx="0.6" fill="#2b2b2b" />
+    <!-- doorstep -->
+    <rect x="14" y="30" width="8" height="1" fill="#a6acb2" />
+  </g>
+</svg>

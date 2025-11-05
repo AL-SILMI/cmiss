@@ -8,6 +8,8 @@ import { GraduationCap } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { collegeInfo } from "@/data/mockData";
 
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+
 const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

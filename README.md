@@ -9,9 +9,9 @@ Key Technologies:
 
 Frontend: React / TypeScript for dynamic UI, styled using Tailwind CSS.
 
-Backend/Data: Handles logic and validation (Inferred: Node.js / Python).
+Backend/Data: Handles logic and validation(Node.js & Express.js ).
 
-Database: Secure persistence layer (Inferred: PostgreSQL / MySQL).
+Database: Secure persistence layer (MongoDB(NoSQL)).
 
 ⚙️ Core Functional Modules
 The system is built around four mission-critical modules:

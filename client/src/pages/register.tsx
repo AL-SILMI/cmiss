@@ -7,8 +7,9 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { GraduationCap } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { collegeInfo } from "@/data/mockData";
+import { apiUrl } from "@/lib/api";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
+// Use centralized API helper
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -43,7 +44,7 @@ const Register = () => {
         batch
       });
       
-      const response = await fetch("http://localhost:5000/api/auth/register", {
+      const response = await fetch(apiUrl('/auth/register'), {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

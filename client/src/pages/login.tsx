@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { GraduationCap } from "lucide-react";
 import { collegeInfo } from "@/data/mockData";
+import { apiUrl } from "@/lib/api";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -15,8 +16,7 @@ const Login = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const apiBase = (import.meta.env.VITE_API_URL ?? "http://localhost:5000");
-      const res = await fetch(`${apiBase}/api/auth/login`, {
+      const res = await fetch(apiUrl('/auth/login'), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
